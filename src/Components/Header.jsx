@@ -23,8 +23,20 @@ const Header = () => {
     >
       <a href="#home">Home</a>
       <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#footer">Contact</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a
+        href="#footer"
+        style={{
+          border: "2px solid black",
+          padding: "3px",
+          paddingLeft: "5px",
+          paddingRight: "5px",
+        }}
+      >
+        Contact
+      </a>
     </div>
   );
 };
